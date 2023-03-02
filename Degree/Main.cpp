@@ -1,5 +1,4 @@
 ﻿#include <iostream>
-
 using namespace std;
 
 int Power(int u, int n, int sum);
@@ -7,13 +6,11 @@ int Power(int u, int n, int sum);
 void main()
 {
 	setlocale(LC_ALL, "");
-
-	int i = 1, n, u, sum = 1;
-
+	int n, u, sum = 1;
+	cout << "Введите Основание степени, затем показатель степени: ";
 	cin >> n >> u;
 	cout << "\n";
 	cout << Power(u, n, sum);
-
 }
 
 int Power (int u, int n, int sum)
@@ -23,7 +20,6 @@ int Power (int u, int n, int sum)
 		sum *= n;
 	}
 	return sum;
-
 }
 
 
