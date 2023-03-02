@@ -6,20 +6,20 @@ int Power(int u, int n, int sum);
 void main()
 {
 	setlocale(LC_ALL, "");
-	int n, u, sum = 1;
+	int n, u, result = 1;
 	cout << "Введите Основание степени, затем показатель степени: ";
 	cin >> n >> u;
 	cout << "\n";
-	cout << Power(u, n, sum);
+	cout << Power(u, n, result);
 }
 
-int Power (int u, int n, int sum)
+int Power (int u, int n, int result)
 {
 	for (int i = 1; i <= u; i++)
 	{
-		sum *= n;
+		result *= n;
 	}
-	return sum;
+	return result;
 }
 
 
