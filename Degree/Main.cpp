@@ -1,6 +1,4 @@
-//Написать функцию ? ? ? Power(? ? ? ) которая возводит указанное число в указанную степень;
-
-#include <iostream>
+п»ї#include <iostream>
 
 using namespace std;
 

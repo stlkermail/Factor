@@ -15,7 +15,7 @@ void main()
 
 int Factorial(int n, int res)
 {
-	res = 1;
+	//res = 1;
 	for (int i = 1; i < n + 1; i++)
 	{
 		cout << i << " ";
