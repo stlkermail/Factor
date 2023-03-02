@@ -1,27 +1,26 @@
-#include <iostream>
+ï»¿#include <iostream>
 
 using namespace std;
 
-int Factorial(int n, int pr);
+int Factorial(int n, int res);
 
 void main()
 {
 	setlocale(LC_ALL, "");
-	int n, pr = 1;
-	cout << "Ââåäèòå ôàêòîðèàë ÷èñëà: ";
+	int n, res = 1;
+	cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ Ñ„Ð°ÐºÑ‚Ð¾Ñ€Ð¸Ð°Ð» Ñ‡Ð¸ÑÐ»Ð°: ";
 	cin >> n;
-	cout << Factorial(n, pr) << endl;
+	cout << Factorial(n, res) << endl;
 }
 
-
-int Factorial(int n, int pr)
+int Factorial(int n, int res)
 {
-	pr = 1;
+	res = 1;
 	for (int i = 1; i < n + 1; i++)
 	{
 		cout << i << " ";
-		pr *= i;
+		res *= i;
 	}
 	cout << "\n";
-	return pr;
+	return res;
 }
