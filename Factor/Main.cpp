@@ -7,7 +7,7 @@ void main()
 {
 	setlocale(LC_ALL, "");
 	int n, res = 1;
-	cout << "Введите факториал числа: ";
+	cout << "Введите факториал числа: !";
 	cin >> n;
 	cout << Factorial(n, res) << endl;
 }
