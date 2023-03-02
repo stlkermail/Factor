@@ -1,7 +1,7 @@
 ﻿#include <iostream>
 using namespace std;
 
-int Power(int u, int n, int sum);
+int Power(int u, int n, int result);
 
 void main()
 {
